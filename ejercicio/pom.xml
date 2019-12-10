@@ -8,6 +8,12 @@
     <version>1.0.0-SNAPSHOT</version>
    <packaging>pom</packaging>
 
+    <properties>
+  <sonar.projectKey>NeoDuke_microservices-v8</sonar.projectKey>
+  <sonar.organization>neoduke</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>71d216e2d52c74ea17f63f3dd7452bf8410f9689</sonar.login>
+</properties>
     <modules>
       <module>control-partida</module>
       <module>gateway-curso</module>
