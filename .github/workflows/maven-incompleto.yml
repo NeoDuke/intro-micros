@@ -1,6 +1,9 @@
-name: Java CI Incompleto
+name: Ejercicio Incompleto
 
-on: [push]
+on:
+  push:
+    branches: 
+      - master
 
 jobs:
   build:
